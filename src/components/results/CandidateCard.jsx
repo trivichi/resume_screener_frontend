@@ -74,7 +74,7 @@ export default function CandidateCard({
       {index < 3 && (
         <motion.div 
           initial={{ scale: 0, rotate: -180 }}
-          animate={{ scale: 1, rotate: 0 }}
+          animate={{ scale: 0.5, rotate: 0 }}
           transition={{ delay: 0.3 + index * 0.1, type: "spring", stiffness: 200 }}
           className={`absolute -left-3 -top-3 w-14 h-14 rounded-full flex flex-col items-center justify-center font-black z-10 border-4 border-slate-900 shadow-2xl ${
             index === 0 ? 'bg-gradient-to-br from-yellow-400 via-yellow-500 to-orange-500 text-white' :

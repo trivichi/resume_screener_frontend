@@ -27,8 +27,8 @@ export default function Hero({ onStart }) {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-xl md:text-2xl text-white/70 mb-12 max-w-3xl mx-auto font-light"
         >
-          Instantly analyze hundreds of resumes with cutting-edge AI. 
-          Get detailed candidate scoring, skill matching, and hiring recommendations in seconds.
+          Instantly analyze multiple resumes with AI. 
+          Get detailed candidate scoring, skill matching, and hiring recommendations in just a click.
         </motion.p>
 
         <motion.div
@@ -77,7 +77,7 @@ export default function Hero({ onStart }) {
           transition={{ duration: 0.6, delay: 0.5 }}
           className="mt-16 flex justify-center gap-12 text-white/60"
         >
-          {[
+          {/* {[
             { value: '10x', label: 'Faster Screening' },
             { value: '95%', label: 'Accuracy' },
             { value: '0', label: 'Bias' },
@@ -86,7 +86,7 @@ export default function Hero({ onStart }) {
               <div className="text-3xl font-bold text-white mb-1">{stat.value}</div>
               <div className="text-sm">{stat.label}</div>
             </div>
-          ))}
+          ))} */}
         </motion.div>
       </div>
 

@@ -27,7 +27,7 @@ export default function ResultsDashboard({ results, onReset }) {
         setCandidates(candidates.filter(c => c.resume_id !== resumeId));
         
         const toast = document.createElement('div');
-        toast.className = 'fixed top-4 right-4 bg-green-500 text-white px-6 py-3 rounded-lg shadow-lg z-50';
+        toast.className = 'fixed top-4 right-4 bg-green-500 text-white px-6 py-30 rounded-lg shadow-lg z-50';
         toast.textContent = 'Resume deleted successfully';
         document.body.appendChild(toast);
         setTimeout(() => toast.remove(), 3000);
